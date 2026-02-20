@@ -188,3 +188,579 @@ COM6
 
 !ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-18 14:28:48.723
 !MESSAGE port: COM6
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-18 15:05:34.590
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM5
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-18 15:05:34.591
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-18 15:05:34.592
+!MESSAGE port: COM5
+!SESSION 2026-02-20 11:58:26.687 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2026-02-20 11:58:28.476
+!MESSAGE Failure occurred reading .project file.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2026-02-20 11:58:28.476
+!MESSAGE Could not read metadata for 'BLINKLED'.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.core.internal.resources.ProjectDescriptionReader.read(ProjectDescriptionReader.java:959)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:959)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2618)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2319)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 2 567 2026-02-20 11:58:28.477
+!MESSAGE Could not read metadata for 'BLINKLED'.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.core.internal.resources.ProjectDescriptionReader.read(ProjectDescriptionReader.java:959)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:959)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2618)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2319)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.core.resources 4 567 2026-02-20 11:58:28.615
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2026-02-20 11:58:28.615
+!MESSAGE Could not read metadata for 'BLINKLED'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BLINKLED)[567]: java.lang.Exception: Failed to read the project description file (.project) for 'BLINKLED'.  The file has been changed on disk, and it now contains invalid information.  The project will not function properly until the description file is restored to a valid state.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:979)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2618)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2319)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2026-02-20 11:58:28.617
+!MESSAGE Failed to read the project description file (.project) for 'BLINKLED'.  The file has been changed on disk, and it now contains invalid information.  The project will not function properly until the description file is restored to a valid state.
+!STACK 0
+java.lang.Exception: Failed to read the project description file (.project) for 'BLINKLED'.  The file has been changed on disk, and it now contains invalid information.  The project will not function properly until the description file is restored to a valid state.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:979)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2618)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2319)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-20 11:58:31.953
+!MESSAGE Log4j2 initialized with config file C:\Users\amirp\Desktop\STM32 FILES\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-20 11:58:36.949
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-02-20 12:11:16.389 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\amirp\Desktop\STM32 FILES\GPIO\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\amirp\Desktop\STM32 FILES\GPIO\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-20 12:11:22.417
+!MESSAGE Log4j2 initialized with config file C:\Users\amirp\Desktop\STM32 FILES\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-20 12:11:28.819
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui 4 4 2026-02-20 12:11:30.030
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$3@2a5e74be, thread Worker-9: Executing the early startup extensions will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2026-02-20 12:11:30.031
+!MESSAGE Worker-9: Executing the early startup extensions thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-9: Executing the early startup extensions
+	at java.management@21.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.8/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.importProjectImpl(MCUProjectImporter.java:376)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.handleArguments(MCUProjectImporterStartup.java:141)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.earlyStartup(MCUProjectImporterStartup.java:57)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2026-02-20 12:11:30.031
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at java.base@21.0.8/java.lang.Object.wait0(Native Method)
+	at java.base@21.0.8/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:191)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:125)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:100)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:87)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:232)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getSourceEntries(MakeContentProvider.java:411)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getChildren(MakeContentProvider.java:106)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.hasChildren(MakeContentProvider.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2269)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:553)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2299)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:3113)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:796)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:895)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3029)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$2(StructuredViewer.java:1463)
+	at org.eclipse.jface.viewers.StructuredViewer$$Lambda/0x0000000100783600.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1463)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:521)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1417)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.lambda$0(MakeContentProvider.java:242)
+	at org.eclipse.cdt.make.ui.MakeContentProvider$$Lambda/0x000000010098aa68.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:370)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:819)
+	at org.eclipse.ui.internal.progress.ProgressManager$$Lambda/0x0000000100a6e7c8.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:849)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:828)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$3.run(MCUProjectImporter.java:383)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda/0x0000000100a6dae8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002dcc48.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.8/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x0000000100101800.invoke(LambdaForm$MH)
+	at java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x0000000100101c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 4 2026-02-20 12:11:31.072
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$3@2a5e74be, thread Worker-9: Executing the early startup extensions will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2026-02-20 12:11:31.073
+!MESSAGE Worker-9: Executing the early startup extensions thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-9: Executing the early startup extensions
+	at java.management@21.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.8/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.importProjectImpl(MCUProjectImporter.java:376)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.handleArguments(MCUProjectImporterStartup.java:141)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.earlyStartup(MCUProjectImporterStartup.java:57)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2026-02-20 12:11:31.073
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at java.base@21.0.8/java.lang.Object.wait0(Native Method)
+	at java.base@21.0.8/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:191)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:125)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:100)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:87)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:232)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getSourceEntries(MakeContentProvider.java:411)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getChildren(MakeContentProvider.java:106)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.hasChildren(MakeContentProvider.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2269)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:553)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2299)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:3113)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:796)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:895)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3029)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$2(StructuredViewer.java:1463)
+	at org.eclipse.jface.viewers.StructuredViewer$$Lambda/0x0000000100783600.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1463)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:521)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1417)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.lambda$0(MakeContentProvider.java:242)
+	at org.eclipse.cdt.make.ui.MakeContentProvider$$Lambda/0x000000010098aa68.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:370)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:819)
+	at org.eclipse.ui.internal.progress.ProgressManager$$Lambda/0x0000000100a6e7c8.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:849)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:828)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$3.run(MCUProjectImporter.java:383)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda/0x0000000100a6dae8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002dcc48.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.8/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x0000000100101800.invoke(LambdaForm$MH)
+	at java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x0000000100101c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:11:36.522
+!MESSAGE Indexed 'GPIO' (25 sources, 142 headers) in 4.79 sec: 11,706 declarations; 43,831 references; 5 unresolved inclusions; 125 syntax errors; 997 unresolved names (1.8%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:12:48.129
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM5
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:12:48.130
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:12:48.130
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:12:48.131
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:27:07.537
+!MESSAGE Indexed 'GPIO' (20 sources, 115 headers) in 2.07 sec: 10,270 declarations; 36,708 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:27:12.334
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.32 sec: 10,251 declarations; 36,476 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:27:39.812
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.09 sec: 10,251 declarations; 36,476 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:27:43.609
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.07 sec: 10,251 declarations; 36,476 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:37:22.337
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.12 sec: 10,251 declarations; 36,495 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:37:25.662
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.09 sec: 10,251 declarations; 36,495 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:38:42.937
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.1 sec: 10,251 declarations; 36,495 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:38:46.439
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.01 sec: 10,251 declarations; 36,495 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:44:23.983
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.15 sec: 10,252 declarations; 36,511 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+!SESSION 2026-02-20 12:44:50.027 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\amirp\Desktop\STM32 FILES\GPIO\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\amirp\Desktop\STM32 FILES\GPIO\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-20 12:44:54.293
+!MESSAGE Log4j2 initialized with config file C:\Users\amirp\Desktop\STM32 FILES\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-20 12:45:00.020
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:45:02.720
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 2.44 sec: 10,252 declarations; 36,511 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:45:07.359
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM5
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:45:07.359
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:45:07.360
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 12:45:07.360
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:50:58.811
+!MESSAGE Indexed 'GPIO' (20 sources, 115 headers) in 2.33 sec: 10,272 declarations; 36,807 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
