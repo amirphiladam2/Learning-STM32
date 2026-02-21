@@ -97,7 +97,7 @@ int main(void)
     /* USER CODE END WHILE */
 	  if(HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13)==GPIO_PIN_RESET){
 		  HAL_GPIO_TogglePin(GPIOA,MY_LED_Pin);
-		  HAL_Delay(200);
+		  HAL_Delay(100);
 	  }
 	  else{
 		  HAL_GPIO_WritePin(GPIOA, MY_LED_Pin, GPIO_PIN_RESET);

@@ -415,8 +415,8 @@ int main(void)
  8000524:	2140      	movs	r1, #64	@ 0x40
  8000526:	4807      	ldr	r0, [pc, #28]	@ (8000544 <main+0x40>)
  8000528:	f000 fca3 	bl	8000e72 <HAL_GPIO_TogglePin>
-		  HAL_Delay(200);
- 800052c:	20c8      	movs	r0, #200	@ 0xc8
+		  HAL_Delay(100);
+ 800052c:	2064      	movs	r0, #100	@ 0x64
  800052e:	f000 f9e1 	bl	80008f4 <HAL_Delay>
  8000532:	e7ef      	b.n	8000514 <main+0x10>
 	  }

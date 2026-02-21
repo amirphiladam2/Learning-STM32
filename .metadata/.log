@@ -764,3 +764,16 @@ COM6
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-02-20 12:50:58.811
 !MESSAGE Indexed 'GPIO' (20 sources, 115 headers) in 2.33 sec: 10,272 declarations; 36,807 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 13:27:13.452
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.48 sec: 10,252 declarations; 36,540 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-20 13:27:17.319
+!MESSAGE Indexed 'GPIO' (19 sources, 115 headers) in 1.25 sec: 10,252 declarations; 36,540 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 13:53:17.313
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 13:53:17.313
+!MESSAGE port: 
