@@ -777,3 +777,100 @@ COM6
 
 !ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-20 13:53:17.313
 !MESSAGE port: 
+!SESSION 2026-02-23 12:39:56.005 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\amirp\Desktop\STM32 FILES\Clock Configuration\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\amirp\Desktop\STM32 FILES\Clock Configuration\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-23 12:40:01.162
+!MESSAGE Log4j2 initialized with config file C:\Users\amirp\Desktop\STM32 FILES\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-23 12:40:08.435
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 12:40:12.765
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 114 headers) in 1.95 sec: 10,245 declarations; 34,730 references; 5 unresolved inclusions; 890 syntax errors; 1,046 unresolved names (2.3%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:20.168
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM5
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:20.169
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:20.170
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:25.877
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM5
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:25.877
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:25.877
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 12:40:25.878
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 12:45:51.948
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 115 headers) in 2.4 sec: 10,251 declarations; 36,471 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 12:47:38.195
+!MESSAGE Indexed 'Clock Configuration' (20 sources, 115 headers) in 1.82 sec: 10,270 declarations; 36,708 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 12:47:42.595
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 115 headers) in 1.12 sec: 10,251 declarations; 36,481 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 13:06:50.436
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 115 headers) in 1.32 sec: 10,251 declarations; 36,471 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+!SESSION 2026-02-23 13:06:57.984 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\amirp\Desktop\STM32 FILES\Clock Configuration\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\amirp\Desktop\STM32 FILES\Clock Configuration\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-23 13:07:02.235
+!MESSAGE Log4j2 initialized with config file C:\Users\amirp\Desktop\STM32 FILES\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-23 13:07:08.067
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 13:07:10.751
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 115 headers) in 2.45 sec: 10,251 declarations; 36,471 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 13:07:15.337
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM5
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 13:07:15.338
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 13:07:15.338
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-23 13:07:15.338
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 13:07:33.263
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 115 headers) in 1.99 sec: 10,251 declarations; 36,471 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 13:08:56.571
+!MESSAGE Indexed 'Clock Configuration' (20 sources, 115 headers) in 1.59 sec: 10,270 declarations; 36,708 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-23 13:09:03.580
+!MESSAGE Indexed 'Clock Configuration' (19 sources, 115 headers) in 1.18 sec: 10,251 declarations; 36,481 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
