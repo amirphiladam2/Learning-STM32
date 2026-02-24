@@ -1,4 +1,4 @@
-# Learning STM32 🚀
+# Learning STM32 
 
 Welcome to my STM32 learning journey! This repository documents my progress, projects, and experiments as I dive into the world of ARM Cortex-M microcontrollers using STM32.
 
@@ -8,7 +8,7 @@ Welcome to my STM32 learning journey! This repository documents my progress, pro
 - **IDE**: STM32CubeIDE
 - **Firmware Package**: STM32CubeF4
 
-## 🚀 How to Run
+##  How to Run
 
 1.  **Clone the repository**:
     ```bash
@@ -68,7 +68,7 @@ Welcome to my STM32 learning journey! This repository documents my progress, pro
 - [ ] Clock Configuration Using Registers
 - [ ] Interrupt Setup Using Registers
 
-### 🧠 Optional (Advanced Tier)
+###    Optional (Advanced Tier)
 - [ ] Bootloader Basics
 - [ ] CMSIS Understanding
 - [ ] Custom Peripheral Driver Creation
