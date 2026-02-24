@@ -8,13 +8,6 @@ Welcome to my STM32 learning journey! This repository documents my progress, pro
 - **IDE**: STM32CubeIDE
 - **Firmware Package**: STM32CubeF4
 
-## 📂 Project Structure
-
-| Project Folder | Description | Key Concepts |
-| :--- | :--- | :--- |
-| **BLINKLED** | The "Hello World" of embedded systems. Toggles an onboard LED. | GPIO Output, HAL Delay, Project Setup |
-| **GPIO** | Experiments with General Purpose Input/Output. | GPIO Input (Button), GPIO Output, Pull-up/Pull-down |
-
 ## 🚀 How to Run
 
 1.  **Clone the repository**:
