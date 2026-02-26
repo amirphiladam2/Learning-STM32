@@ -30,9 +30,9 @@ Welcome to my STM32 learning journey! This repository documents my progress, pro
 ## 🗺️ Roadmap
 
 ### 🔹 PHASE 1 — Core Microcontroller Control
-- [ ] Clock Configuration (RCC)
+- [x] Clock Configuration (RCC)
 - [x] GPIO (Input / Output / Pull-up / Pull-down) *(Covered in BLINKLED & GPIO)*
-- [ ] EXTI (External Interrupts)
+- [x] EXTI (External Interrupts)
 - [ ] Basic Timer (Interrupt mode)
 - [ ] PWM Generation
 - [ ] Input Capture (Timer)
