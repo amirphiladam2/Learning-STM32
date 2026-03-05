@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := EXTI
+BUILD_ARTIFACT_NAME := EXTERNALInterrupt
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-EXTI.elf \
+EXTERNALInterrupt.elf \
 
 MAP_FILES += \
-EXTI.map \
+EXTERNALInterrupt.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-EXTI.list \
+EXTERNALInterrupt.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: EXTI.elf secondary-outputs
+main-build: EXTERNALInterrupt.elf secondary-outputs
 
 # Tool invocations
-EXTI.elf EXTI.map: $(OBJS) $(USER_OBJS) C:\Users\amirp\Desktop\STM32\ FILES\EXTI\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "EXTI.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\amirp\Desktop\STM32 FILES\EXTI\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+EXTERNALInterrupt.elf EXTERNALInterrupt.map: $(OBJS) $(USER_OBJS) C:\Users\amirp\Desktop\STM32\ FILES\EXTERNALInterrupt\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "EXTERNALInterrupt.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\amirp\Desktop\STM32 FILES\EXTERNALInterrupt\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTERNALInterrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-EXTI.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "EXTI.list"
+EXTERNALInterrupt.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "EXTERNALInterrupt.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) EXTI.elf EXTI.list EXTI.map default.size.stdout
+	-$(RM) EXTERNALInterrupt.elf EXTERNALInterrupt.list EXTERNALInterrupt.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

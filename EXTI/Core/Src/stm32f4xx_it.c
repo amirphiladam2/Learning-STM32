@@ -104,7 +104,6 @@ void MemManage_Handler(void)
   while (1)
   {
     /* USER CODE BEGIN W1_MemoryManagement_IRQn 0 */
-
     /* USER CODE END W1_MemoryManagement_IRQn 0 */
   }
 }
