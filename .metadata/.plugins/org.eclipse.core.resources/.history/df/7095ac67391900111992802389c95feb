@@ -1,0 +1,14 @@
+/*
+ * dht11.c
+ *
+ *  Created on: Mar 6, 2026
+ *      Author: amirp
+ */
+
+#include "dht11.h"
+
+void DHT11_Read(int *temperature, int *humidity)
+{
+    *temperature = 25;
+    *humidity = 60;
+}

@@ -1,0 +1,13 @@
+/*
+ * dht11.h
+ *
+ *  Created on: Mar 6, 2026
+ *      Author: amirp
+ */
+
+#ifndef INC_DHT11_H_
+#define INC_DHT11_H_
+
+
+
+#endif /* INC_DHT11_H_ */

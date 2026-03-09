@@ -1,21 +1,21 @@
-00:59:16 **** Incremental Build of configuration Debug for project EXTERNALInterrupt ****
+11:52:45 **** Incremental Build of configuration Debug for project Timer Interrupt ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "EXTERNALInterrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amirp\Desktop\STM32 FILES\EXTERNALInterrupt\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTERNALInterrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: EXTERNALInterrupt.elf
+arm-none-eabi-gcc "../Core/Inc/dht11.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Inc/dht11.d" -MT"Core/Inc/dht11.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Inc/dht11.o"
+arm-none-eabi-gcc -o "Timer Interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amirp\Desktop\STM32 FILES\Timer Interrupt\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Timer Interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Timer Interrupt.elf
  
-arm-none-eabi-size  EXTERNALInterrupt.elf 
-arm-none-eabi-objdump -h -S EXTERNALInterrupt.elf  > "EXTERNALInterrupt.list"
+arm-none-eabi-size  Timer\ Interrupt.elf 
+arm-none-eabi-objdump -h -S Timer\ Interrupt.elf  > "Timer Interrupt.list"
    text	   data	    bss	    dec	    hex	filename
-   6136	     12	   1572	   7720	   1e28	EXTERNALInterrupt.elf
+  14216	     92	   2132	  16440	   4038	Timer Interrupt.elf
 Finished building: default.size.stdout
  
-Finished building: EXTERNALInterrupt.list
+Finished building: Timer Interrupt.list
  
-00:59:24 **** Incremental Build of configuration Debug for project EXTERNALInterrupt ****
+11:52:53 **** Incremental Build of configuration Debug for project Timer Interrupt ****
 make -j8 all 
-arm-none-eabi-size  EXTERNALInterrupt.elf 
+arm-none-eabi-size  Timer\ Interrupt.elf 
    text	   data	    bss	    dec	    hex	filename
-   6136	     12	   1572	   7720	   1e28	EXTERNALInterrupt.elf
+  14216	     92	   2132	  16440	   4038	Timer Interrupt.elf
 Finished building: default.size.stdout
  

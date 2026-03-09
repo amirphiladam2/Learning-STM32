@@ -26,7 +26,7 @@ Welcome to my STM32 learning journey! This repository documents my progress, pro
 - [x] Clock Configuration (RCC)
 - [x] GPIO (Input / Output / Pull-up / Pull-down) *(Covered in BLINKLED & GPIO)*
 - [x] EXTI (External Interrupts)
-- [ ] Basic Timer (Interrupt mode)
+- [x] Basic Timer (Interrupt mode)
 - [ ] PWM Generation
 - [ ] Input Capture (Timer)
 

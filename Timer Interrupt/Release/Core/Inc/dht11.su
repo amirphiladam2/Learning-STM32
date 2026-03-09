@@ -1,0 +1,2 @@
+../Core/Inc/dht11.c:15:6:delay_us	0	static,ignoring_inline_asm
+../Core/Inc/dht11.c:59:6:DHT11_Read	64	static
