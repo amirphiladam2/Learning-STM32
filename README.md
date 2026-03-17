@@ -27,7 +27,7 @@ Welcome to my STM32 learning journey! This repository documents my progress, pro
 - [x] GPIO (Input / Output / Pull-up / Pull-down) *(Covered in BLINKLED & GPIO)*
 - [x] EXTI (External Interrupts)
 - [x] Basic Timer (Interrupt mode)
-- [ ] PWM Generation
+- [x] PWM Generation
 - [ ] Input Capture (Timer)
 
 ### 🔹 PHASE 2 — Communication Protocols
